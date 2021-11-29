@@ -6,10 +6,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;  
+        width: 100vh;
     }
 
     #lezioni .right{
         margin-top: 30px;
+    }
+
+    #lezioni h3{
+        margin: 0;
     }
 }
 
@@ -21,6 +27,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
+        width: 100vh;
+        margin-top: 2px;
     }
 
     #steps .central{
@@ -30,4 +39,22 @@
     #steps .right{
         margin-top: 30px;
     }
+}
+
+/*Third section*/
+
+@media screen and (max-width: 420px){
+
+
+    #why .row{
+        background-color: #F2F2CD;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vh;
+        margin-top: 5px;
+            
+        }
+    
 }
