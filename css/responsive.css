@@ -2,8 +2,32 @@
 @media screen and (max-width: 420px) {
 
     #lezioni .row{
+        background-color: #F2F2CD;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #lezioni .right{
+        margin-top: 30px;
+    }
+}
+
+/*Second section*/
+
+@media screen and (max-width: 420px){
+
+    #steps .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #steps .central{
+        margin-top: 30px;
+    }
+
+    #steps .right{
+        margin-top: 30px;
     }
 }
